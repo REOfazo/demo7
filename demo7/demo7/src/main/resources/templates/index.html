@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf we application!</title>
+</head>
+<body>
+    <h1>Hello Thymeleaf!</h1>
+
+
+
+    <form>
+        <input type="text" title="input name">
+        <input type="email" title="input email">
+    </form>
+<table>
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="student:${students}">
+        <td th:text="${student}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+    <link rel="stylesheet" href="/index.css">
+</html>

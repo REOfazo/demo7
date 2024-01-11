@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+body {
+    background-color: blue;
+}
+form {
+    align-items: center;
+    align-content: center;
+}
+input {
+    align-content: center;
+    align-items: center;
+}
